@@ -1,0 +1,239 @@
+@media (max-width: 1199px) {
+    .container {
+        width: 100%;
+    }
+
+    .title {
+        margin-left: 8.58vw;
+        &_main {
+            font-size: 7.5vw;
+        }
+        &_sub {
+            font-size: 9.33vw;
+        }
+    }
+
+    .text {
+        margin-left: 8.58vw;
+        font-size: 3vw;
+        &__special {
+            font-size: 4.83vw;
+        }
+    }
+
+    .button {
+        font-size: 4.17vw;
+    }
+
+    .list {
+        margin-left: 8.58vw;
+        &__item-index {
+            font-size: 8.33vw;
+            top: -2.08vw;
+            padding-right: 5.42vw;
+        }
+        &__item:nth-last-child(2) .list__item-index{
+            top: 0;
+        }
+    }
+
+    .timetable {
+        margin-left: 8.58vw;
+        &__item {
+            width: 82.67vw;
+            height: 13.58vw;
+            border-bottom: 1px solid $sub-color;
+            padding: 3.75vw 0;
+        }
+
+        &__date {
+            width: 27.50vw;
+            display: inline-block;
+            font-family: $sub-font;
+            color: $main-text-color;
+            font-size: 5.50vw;
+            line-height: 92.5%;
+            padding-top: 2.50vw;
+        }
+
+        &__work {
+            display: inline-block;
+            font-family: $main-font;
+            color: $main-text-color;
+            font-size: 3vw;
+            line-height: 107%;
+            margin-left: 29.17vw;
+            padding-top: 0.83vw;
+        }
+    }
+
+    .package {
+        margin-left: 8.58vw;
+        padding: 5.83vw;
+        width: 82.67vw;
+        border-radius: 6.67vw;
+        &__title {
+            padding-left: 1.42vw;
+            font-size: 5.33vw;
+        }
+        &__price {
+            margin-top: 3.33vw;
+        }
+        &__price-old {
+            font-size: 5.75vw;
+            margin-left: 1.42vw;
+        }
+        &__price-old::after {
+            top: 2.75vw;
+            left: -1.25vw;
+            width: 23.33vw;
+            height: 1vw;
+        }
+
+        &__price-new {
+            margin-left: 6.25vw;
+            font-size: 8.25vw;
+        }
+
+        &__text {
+            margin-top: 6.67vw;
+            padding-left: 1.42vw;
+            font-size: 3vw;
+        }
+
+        &__button {
+            margin-top: 5.42vw;
+            width: 71.25vw;
+            height: 16.25vw;
+        }
+    }
+
+    .header {
+        margin-top: 8.58vw;
+        &__title_sub {
+            margin-top: -1.58vw;
+            width: 58.33vw;
+        }
+        &__ellipse {
+            width: 133.33vw;
+            height: 50vw;
+            margin-left: -16.67vw;
+            margin-top: 16.67vw;
+        }
+        &__ellipse-img {
+            width: 83.33vw;
+            top: -10vw;
+            right: 12vw;
+        }
+        &__text {
+            margin-top: 8.92vw;
+            width: 82.50vw;
+            font-size: 3vw;
+        }
+    }
+
+    .format {
+        &__title {
+            margin-top: 16.67vw;
+        }
+        &__text {
+            width: 82.50vw;
+            margin-top: 8.33vw;
+        }
+        &__button {
+            width: 75.42vw;
+            height: 17.25vw;
+        }
+        &__button_main {
+            margin-top: 7.50vw;
+        }
+        &__button_sub {
+            margin-top: 4.17vw;
+        }
+    }
+
+    .intentions {
+        &__title {
+            margin-top: 17.75vw;
+        }
+        &__title_sub {
+            margin-left: 17.08vw;
+        }
+        &__list {
+            margin-top: 8.92vw;
+        }
+    }
+
+    .schedule {
+        margin-top: 17.75vw;
+        &__timetable {
+            margin-top: 5vw;
+        }
+        &__block {
+            width: 82.50vw;
+            border-radius: 1.92vw;
+        }
+        &__block_active {
+            margin-top: 4.67vw;
+        }
+        &__text {
+            color: $sub-text-color;
+            font-size: 2.67vw;
+            font-family: $main-font;
+            line-height: 130%;
+            margin: 4.17vw 5.58vw;
+        }
+    }
+
+    .price {
+        margin-top: 17.75vw;
+        &__text {
+            padding-top: 8.92vw;
+            width: 76.92vw;
+        }
+        &__packages {
+            margin-top: 6.25vw;
+        }
+        &__package {
+            margin-bottom: 10.42vw;
+        }
+    }
+
+    .contacts {
+        margin-top: 17.75vw;
+        &__title_under {
+            margin: -1.58vw 0 9vw 33.33vw;
+        }
+        &__button {
+            margin: 0 auto;
+            width: 75.42vw;
+            height: 17.25vw;
+            margin-bottom: 4.17vw;
+        }
+    }
+
+    .reviews {
+        margin-top: 17.67vw;
+        &__slider {
+            width: 82.50vw;
+            height: 70.42vw;
+        }
+    }
+
+    .footer {
+        margin-top: 15.17vw;
+        &__button {
+            width: 75.42vw;
+            height: 17.25vw;
+        }
+        &__button_main {
+            margin-top: 4.17vw;
+        }
+        &__button_sub {
+            margin-bottom: 13.33vw;
+        }
+    }
+}
+
+
+

@@ -1,0 +1,26 @@
+.schedule {
+    margin-top: 213px;
+    &__timetable {
+        margin-top: 60px;
+    }
+    &__timetable-item {
+        cursor: pointer;
+    }
+    &__block {
+        width: 990px;
+        border-radius: 23px;
+        background-color: $sub-color;
+        overflow: hidden;
+        height: 0px;
+    }
+    &__block_active {
+        margin-top: 56px;
+    }
+    &__text {
+        color: $sub-text-color;
+        font-size: 32px;
+        font-family: $main-font;
+        line-height: 130%;
+        margin: 50px 67px;
+    }
+}

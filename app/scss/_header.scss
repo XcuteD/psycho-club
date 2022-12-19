@@ -1,0 +1,30 @@
+.header {
+    margin-top: 103px;
+    &__title_sub {
+        margin-top: -19px;
+        width: 700px;
+    }
+    &__text {
+        margin-top: 107px;
+        width: 990px;
+    }
+    &__ellipse {
+        position: relative;
+        border: 1px solid $sub-color;
+        border-radius: 100%;
+        width: 1600px;
+        height: 600px;
+        transform: rotate(-20deg);
+        margin-left: -200px;
+        margin-top: 200px;
+    }
+    &__ellipse-img {
+        position: absolute;
+        width: 1000px;
+        border-radius: 70% 50% 60% 50%;
+        transform: rotate(20deg);
+        top: -120px;
+        right: 170px;
+    }
+}
+
