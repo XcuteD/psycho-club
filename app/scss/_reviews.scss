@@ -3,10 +3,14 @@
     &__slider {
         margin: 0 auto;
         margin-top: 72px;
-        height: 845px;
     }
     &__slide {
-        height: 845px;
+        margin: 0 auto;
+        height: 545px;
+    }
+    &__slide img {
+        margin: 0 auto;
+        height: 545px;
     }
 
     // &__slide_1 {

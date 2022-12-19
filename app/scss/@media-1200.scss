@@ -62,7 +62,7 @@
             color: $main-text-color;
             font-size: 3vw;
             line-height: 107%;
-            margin-left: 29.17vw;
+            margin-left: 28vw;
             padding-top: 0.83vw;
         }
     }
@@ -106,6 +106,18 @@
             width: 71.25vw;
             height: 16.25vw;
         }
+    }
+
+    .slick-dots {
+        gap: 1vw;
+    }
+
+    .slick-dots li button{
+
+    }
+
+    .slick-track {
+        margin-bottom: -25vw;
     }
 
     .header {
@@ -215,8 +227,13 @@
     .reviews {
         margin-top: 17.67vw;
         &__slider {
-            width: 82.50vw;
-            height: 70.42vw;
+            margin-top: 6vw;
+        }
+        &__slide {
+            height: 45.42vw;
+        }
+        &__slide img {
+            height: 45.42vw;
         }
     }
 
@@ -228,9 +245,9 @@
         }
         &__button_main {
             margin-top: 4.17vw;
+            margin-bottom: 13.33vw;
         }
         &__button_sub {
-            margin-bottom: 13.33vw;
         }
     }
 }
